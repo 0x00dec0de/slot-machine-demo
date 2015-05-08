@@ -1,6 +1,6 @@
 # Slot machine demo
 
-Simple show case implementation of slot machine using CreateJS
+Simple show case implementation of slot machine using CreateJS. [See it in action](http://fredyc.github.io/slot-machine-demo/).
 
 ## Installation and build
 
