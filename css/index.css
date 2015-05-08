@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: 'Arial';
+  background-color: #000;
+}
+#game-table {
+  background: url("../assets/Table.png") no-repeat;
+  width: 1536px;
+  height: 1024px;
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  margin-left: -768px;
+  margin-top: -512px;
+}
+#game {
+  position: absolute;
+}
