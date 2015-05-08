@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge, chrome=1")
+
+		title HD Slot Machine
+
+		meta(name="author", content="Daniel K.")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+
+		link(type='text/css', rel='stylesheet', href='css/index.css')
+
+		script(src='https://code.createjs.com/createjs-2013.12.12.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/async/0.9.0/async.min.js')
+		script(src='js/index.js')
+
+		if livereload
+			script(src="http://localhost:35729/livereload.js")
+
+	body
+		canvas#game
+		#game-table
